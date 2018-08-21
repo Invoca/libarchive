@@ -11,6 +11,6 @@ package node['libarchive']['package_name'] do
 end.run_action(:upgrade)
 
 chef_gem 'ffi-libarchive' do
-  version '~> 0.2.0'
+  version '= 0.2.0'
   compile_time true
 end
