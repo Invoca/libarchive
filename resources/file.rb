@@ -4,6 +4,8 @@
 #
 # Author:: Jamie Winsor (<jamie@vialstudios.com>)
 #
+resource_name :archive_file
+provides :libarchive_file
 
 property :path, String, name_property: true, required: true
 property :owner, String
